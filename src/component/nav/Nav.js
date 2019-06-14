@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ImgLogo from '../../images/HOME/logo.png'
-import ImgShoppingCart  from '../../images/HOME/shoppoing-cart.png'
+import ImgShoppingCart  from '../../images/HOME/shoppoingcart.png'
 import ImgSeach from './../../images/HOME/btn-search.png'
 
 class Nav extends Component {
