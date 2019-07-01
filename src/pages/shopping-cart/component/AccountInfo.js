@@ -46,7 +46,7 @@ class AccountInfo extends Component {
         return(
             <div className="my--account ml-3 mt-4 mb-5">
                 <h3 className="text-uppercase">Thông tin tài khoản</h3>
-                <form className="form-horizontal" action="">
+                <div className="form-horizontal">
                     <div className="form-group">
                         <label className="control-label" htmlFor="firstName">First Name:</label>
                         <input type="email" disabled className="form-control" 
@@ -62,7 +62,7 @@ class AccountInfo extends Component {
                         <input type="email" disabled className="form-control" 
                         id="email" value={email}/>
                     </div>
-                </form>
+                </div>
             </div>
         );
     }
